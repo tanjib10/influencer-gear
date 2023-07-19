@@ -65,6 +65,35 @@ nav img {
   width: 95%;
 }
 
+/* main section */
+
+.sponsor-container {
+  max-width: 90%;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-title {
+  margin-top: 140px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.popular-collection-container {
+  max-width: 95%;
+  margin: 0px auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.collection-content {
+  padding: 20px;
+  width: 200px;
+}
+
 /* responsive styles */
 /* for mobiles */
 @media screen and (max-width: 576px) {
